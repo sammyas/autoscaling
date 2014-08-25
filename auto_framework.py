@@ -4,7 +4,7 @@ import time
 
 import mesos
 import mesos_pb2
-from autoscaling import monitoring
+import monitoring
 from optparse import OptionParser
 from subprocess import *
 from socket import gethostname
